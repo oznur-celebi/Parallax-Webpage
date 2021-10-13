@@ -1,0 +1,120 @@
+body,html{
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   font-size: 16px;
+   font-family: "Lato",sans-serif ;
+   font-weight: 400;
+   line-height: 28.8px;
+   color: #666;
+   /* box-sizing: border-box; */
+}
+.pic1, .pic2,.pic3,.pic4,.pic5{
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items : center;
+     justify-content: center;
+    opacity: 0.7;
+
+
+}
+
+
+.pic1{
+    background-image: url(./img/bg.jpg);
+     min-height:100% ;
+}
+.pic2{
+    background-image: url(./img/bg2.jpg);
+    min-height:80% ;
+}
+.pic3{
+    background-image: url(./img/bg3.jpg);
+    min-height:80% ;
+}
+.pic4{
+    background-image: url(./img/bg4.jpg);
+    min-height:80% ;
+}
+.pic5{
+    background-image: url(./img/bg.jpg);
+    min-height:100% ;
+}
+
+ section{
+    text-align:center;
+    padding: 3rem 5rem;  
+    display: block;
+    
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.container1{
+    display: block;
+    outline:  dashed 1px rgb(255,0,0);
+    background-color: #000;
+    padding: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem ;
+    outline: 0.5rem inset purple;
+    outline-offset: 1rem;
+    line-height: 5rem;
+   
+   
+}
+.text1{
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    color: white;
+}
+
+.section-fullstack,.section-data{
+    background-color :rgb(241,241,241);
+    color:#666
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.container2,.container3,.container4,.container5{
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    color: white;
+}
+.container2__logo{
+   width: 30%; 
+   margin: 1rem;
+}
+.section-AWS,.section-why{
+    
+    background-color: #282e34;
+    color: #ddd;
+}
+.text3, .text4,.text5{
+    background-color: black;
+    padding: 0.7rem;
+    border-top-left-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+    outline: 0.4rem inset purple;
+    outline-offset: 0.2rem;
+    text-transform: capitalize;
+    line-height: 5rem;
+}
+
+
